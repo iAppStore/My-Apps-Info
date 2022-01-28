@@ -3,13 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>UIAppFonts</key>
-	<array>
-		<string>SF-Compact-Text-Black.ttf</string>
-		<string>SF-Compact-Text-Semibold.ttf</string>
-		<string>SF-Compact-Text-BlackItalic.ttf</string>
-		<string>SF-Compact-Text-Bold.ttf</string>
-		<string>SF-Compact-Text-Medium.ttf</string>
-		<string>SF-Compact-Text-Regular.ttf</string>
-	</array>
+	<array/>
 </dict>
 </plist>
