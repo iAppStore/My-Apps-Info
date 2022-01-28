@@ -18,12 +18,3 @@ enum ImageAssets {
     }
    
 }
-
-enum Fonts {
-    enum iAppStore: String {
-        case medium = "SF-Compact-Text-Medium"
-        case bold = "SF-Compact-Text-Bold"
-        case semibold = "SF-Compact-Text-Semibold"
-        case regular = "SF-Compact-Text-Regular"
-    }
-}

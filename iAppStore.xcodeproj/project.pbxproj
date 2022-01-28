@@ -14,6 +14,7 @@
 		AC055D1327A33B8500666E1B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D0F27A33B8500666E1B /* DashboardView.swift */; };
 		AC055D1427A33B8500666E1B /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D1027A33B8500666E1B /* ImageAssets.swift */; };
 		AC055D1527A33B8500666E1B /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D1127A33B8500666E1B /* DashboardModel.swift */; };
+		AC055D3D27A45E7800666E1B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D3C27A45E7800666E1B /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AC055D1027A33B8500666E1B /* ImageAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
 		AC055D1127A33B8500666E1B /* DashboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
 		AC055D3B27A3D73D00666E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC055D3C27A45E7800666E1B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AC055D0F27A33B8500666E1B /* DashboardView.swift */,
 				AC055D0E27A33B8500666E1B /* DashboardViewModel.swift */,
 				AC055D1027A33B8500666E1B /* ImageAssets.swift */,
+				AC055D3C27A45E7800666E1B /* Color+Extension.swift */,
 				AC055D0427A33AD100666E1B /* Assets.xcassets */,
 				AC055D0627A33AD100666E1B /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC055D1427A33B8500666E1B /* ImageAssets.swift in Sources */,
+				AC055D3D27A45E7800666E1B /* Color+Extension.swift in Sources */,
 				AC055D1227A33B8500666E1B /* DashboardViewModel.swift in Sources */,
 				AC055D1327A33B8500666E1B /* DashboardView.swift in Sources */,
 				AC055D1527A33B8500666E1B /* DashboardModel.swift in Sources */,
