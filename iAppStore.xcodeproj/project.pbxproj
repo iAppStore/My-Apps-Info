@@ -15,6 +15,7 @@
 		AC055D1427A33B8500666E1B /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D1027A33B8500666E1B /* ImageAssets.swift */; };
 		AC055D1527A33B8500666E1B /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D1127A33B8500666E1B /* DashboardModel.swift */; };
 		AC055D3D27A45E7800666E1B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D3C27A45E7800666E1B /* Color+Extension.swift */; };
+		AC055D4127A4790300666E1B /* Cenima in Frameworks */ = {isa = PBXBuildFile; productRef = AC055D4027A4790300666E1B /* Cenima */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AC055D1127A33B8500666E1B /* DashboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
 		AC055D3B27A3D73D00666E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC055D3C27A45E7800666E1B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		AC055D3E27A4605C00666E1B /* Cenima */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Cenima; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC055D4127A4790300666E1B /* Cenima in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +47,10 @@
 		AC055CF427A33ACE00666E1B = {
 			isa = PBXGroup;
 			children = (
+				AC055D3E27A4605C00666E1B /* Cenima */,
 				AC055CFF27A33ACE00666E1B /* iAppStore */,
 				AC055CFE27A33ACE00666E1B /* Products */,
+				AC055D3F27A4790300666E1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +86,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AC055D3F27A4790300666E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +109,9 @@
 			dependencies = (
 			);
 			name = iAppStore;
+			packageProductDependencies = (
+				AC055D4027A4790300666E1B /* Cenima */,
+			);
 			productName = iAppStore;
 			productReference = AC055CFD27A33ACE00666E1B /* iAppStore.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +140,8 @@
 				Base,
 			);
 			mainGroup = AC055CF427A33ACE00666E1B;
+			packageReferences = (
+			);
 			productRefGroup = AC055CFE27A33ACE00666E1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -214,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -269,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -296,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +344,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +380,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC055D4027A4790300666E1B /* Cenima */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Cenima;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC055CF527A33ACE00666E1B /* Project object */;
 }
