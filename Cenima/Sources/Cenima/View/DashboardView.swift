@@ -41,7 +41,7 @@ struct DashboardView: View {
                     HStack{
                         Image(systemName: "film.fill")
                             .font(.system(size: 26, weight: .bold, design: .default))
-                        Text("Cenima")
+                        Text("Cinema")
                             .font(.system(size: 26, weight: .bold, design: .default))
                         Spacer()
                         Button(action : {
