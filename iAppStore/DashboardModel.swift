@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct DashboardModel: Identifiable {
     let id = UUID()
@@ -17,4 +18,5 @@ struct DashboardModel: Identifiable {
     var twitter: URL?
     var linkedIn: URL?
     var resume: URL?
+    var view : AnyView
 }

@@ -29,6 +29,7 @@ struct DashboardView: View {
                 }
             }
         }
+
     }
     
     @ViewBuilder
@@ -82,6 +83,13 @@ struct DashboardView: View {
                 .tabViewStyle(.page(indexDisplayMode: data.screenShots.isEmpty ? .never : .always))
                 ,alignment: .top
             )
+            .onTapGesture {
+                vm.isPresent = true
+            }
+            .sheet(isPresented: $vm.isPresent){
+                data.view
+            }
+        
     }
 }
 
