@@ -10,11 +10,19 @@ import Foundation
 enum ImageAssets {
     
     enum iAppStore: String {
+        case myAppStore
+    }
+    
+    enum Cenima: String {
         case CenimaPreviewOne
         case CenimaPreviewTwo
         case CenimaPreviewThree
         case CenimaPreviewFour
-        case iAppStoreIcon
     }
+    
+    enum XCalendar: String {
+        case XCalendarPreviewFour
+    }
+    
    
 }
