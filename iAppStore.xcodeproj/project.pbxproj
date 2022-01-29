@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5485621A27A58597001C6603 /* XCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 5485621927A58597001C6603 /* XCalendar */; };
 		AC055D0127A33ACE00666E1B /* iAppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC055D0027A33ACE00666E1B /* iAppStoreApp.swift */; };
 		AC055D0527A33AD100666E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC055D0427A33AD100666E1B /* Assets.xcassets */; };
 		AC055D0827A33AD100666E1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC055D0727A33AD100666E1B /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5485621827A5853C001C6603 /* XCalendar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = XCalendar; sourceTree = "<group>"; };
 		AC055CFD27A33ACE00666E1B /* iAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC055D0027A33ACE00666E1B /* iAppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAppStoreApp.swift; sourceTree = "<group>"; };
 		AC055D0427A33AD100666E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC055D4127A4790300666E1B /* Cenima in Frameworks */,
+				5485621A27A58597001C6603 /* XCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,7 @@
 		AC055CF427A33ACE00666E1B = {
 			isa = PBXGroup;
 			children = (
+				5485621827A5853C001C6603 /* XCalendar */,
 				AC055D3E27A4605C00666E1B /* Cenima */,
 				AC055CFF27A33ACE00666E1B /* iAppStore */,
 				AC055CFE27A33ACE00666E1B /* Products */,
@@ -111,6 +115,7 @@
 			name = iAppStore;
 			packageProductDependencies = (
 				AC055D4027A4790300666E1B /* Cenima */,
+				5485621927A58597001C6603 /* XCalendar */,
 			);
 			productName = iAppStore;
 			productReference = AC055CFD27A33ACE00666E1B /* iAppStore.app */;
@@ -382,6 +387,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5485621927A58597001C6603 /* XCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = XCalendar;
+		};
 		AC055D4027A4790300666E1B /* Cenima */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Cenima;
