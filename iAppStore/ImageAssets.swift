@@ -10,7 +10,7 @@ import Foundation
 enum ImageAssets {
     
     enum iAppStore: String {
-        case myAppStore
+        case MyAppInfo
     }
     
     enum Cenima: String {

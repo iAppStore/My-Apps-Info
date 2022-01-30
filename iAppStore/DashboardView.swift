@@ -12,14 +12,14 @@ struct DashboardView: View {
     @ObservedObject var vm: DashboardViewModel
     var body: some View {
         VStack {
-            HStack(spacing: 2) {
-                Image(ImageAssets.iAppStore.myAppStore.rawValue)
+            HStack(spacing: 4) {
+                Image(ImageAssets.iAppStore.MyAppInfo.rawValue)
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20, alignment: .center)
-            Text("pp Store")
+            Text("info")
                 .font(.system(size: 18, weight: .bold, design: .rounded))
-                .foregroundColor(Color.init(hex: "002B85"))
+                .foregroundColor(Color.init(hex: "420085"))
             }
             ScrollView {
                 VStack {
